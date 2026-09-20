@@ -6,6 +6,7 @@ Date captured: YYYY-MM-DD
 | --- | --- | --- |
 | LinkedIn | | |
 | Instagram | | |
+| Threads | | |
 | TikTok | | |
 | YouTube | | |
 | GitHub | | |
