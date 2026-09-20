@@ -3,7 +3,7 @@
 Used for: profile bios. Length tiers are tagged with their target platform and
 character budget.
 
-**Recommended lead title**: **AI-Native Full-Stack Engineer · Mobile-first** - this is my recommendation based on your background; the final call is yours. Whatever you pick, keep it identical everywhere (profile, CV header, website hero).
+**Lead title (confirmed)**: **AI-Native Full-Stack Engineer · Mobile-first** - keep it identical everywhere (profile, CV header, website hero).
 - AI-Native = the method (architecture & workflow design; AI agents execute most of the coding)
 - Full-Stack = the range (mobile + web + backend)
 - Mobile-first = the specialty (React Native is the deepest, most proven base)
