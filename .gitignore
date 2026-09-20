@@ -1,0 +1,11 @@
+# OS junk
+.DS_Store
+Thumbs.db
+._*
+
+# Private / sensitive notes - never committed
+private*
+*.private.*
+
+# Tooling state
+.omo/
