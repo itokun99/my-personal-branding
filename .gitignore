@@ -9,3 +9,5 @@ private*
 
 # Tooling state
 .omo/
+.agents/
+skills-lock.json
