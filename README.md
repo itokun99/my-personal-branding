@@ -7,6 +7,10 @@ Everything here is plain files - Markdown for text, PDF (or whatever format the
 recipient asked for) for anything sent out, images for assets. No build step,
 no tooling.
 
+This archive is **public**: it holds only material meant to be seen, and the CV
+carries public contact channels only. What is deliberately kept out is listed
+under [Public scope](#public-scope).
+
 ## Layout
 
 | Path | What lives here |
@@ -37,9 +41,21 @@ no tooling.
   never edited again.
 - One asset lives in one place - never duplicate headshots or logos across folders.
 
-## Privacy
+## Public scope
 
-- Keep this repository **private** - it aggregates personal data.
-- Never commit what you do not want public: home address, ID numbers,
-  references' personal contacts. Keep notes like that in `private*.md`
-  (git-ignored).
+This repository is **public** - everything committed here is meant to be seen.
+
+- Deliberately excluded: home address, ID/tax numbers, references' personal
+  contacts, and anything under NDA. Notes like that belong in `private*.md`,
+  which is git-ignored.
+- Pushing is effectively permanent: a commit stays in the history, and a public
+  repo can be forked, so deleting a file later does not unpublish it. Read the
+  diff before every push.
+- Contact channels in the CV stay public: email, LinkedIn, GitHub, website. No
+  phone number.
+
+## License
+
+The written content (CV, bios, portfolio, brand notes) is licensed under
+[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) - share it
+with attribution, no commercial use, no derivatives. Full text: [LICENSE](LICENSE).
