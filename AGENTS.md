@@ -14,7 +14,7 @@ tooling. 18 tracked files, ~117 KB of source.
 ```
 my-personal-branding/
 ├── resume/       # cv-master.md (single source) + sent/ cover-letters/ certificates/
-├── bio/          # short.md = per-platform tiers, long.md = about pages
+├── bio/          # one file per platform: linkedin.md, youtube.md, instagram.md
 ├── social/       # accounts.md registry + content/ post records + metrics/ monthly
 ├── brand/        # identity.md (colors/fonts/tagline) + headshots/ + logos/
 ├── portfolio/    # _template.md + one folder per project
@@ -28,8 +28,8 @@ my-personal-branding/
 |------|----------|-------|
 | Edit the CV | `resume/cv-master.md` | the single master, edited in place |
 | Record a CV that was sent | `resume/sent/` | dated filename, never edited after |
-| Bio for a specific platform | `bio/short.md` | tiers tagged with target platform + char budget |
-| About page / speaker bio | `bio/long.md` | |
+| Bio for a specific platform | `bio/<platform>.md` | EN + ID, short + long tier, measured char count in each heading |
+| About page / speaker bio | `bio/linkedin.md` (long tier) | the fullest form; YouTube's long tier doubles as channel copy |
 | Add or verify a handle | `social/accounts.md` | 10-platform registry, keep current |
 | Draft or record a post | `social/content/YYYY-MM-DD-<platform>-<slug>.md` | format in CONVENTIONS |
 | Monthly follower snapshot | `social/metrics/YYYY-MM.md` | copy `social/metrics/_template.md` |
@@ -50,9 +50,9 @@ my-personal-branding/
   measured character count in each section heading, posting notes at the end.
   Links go in the first reply/comment, never the post body (reach).
 - **Lead title is fixed**: `AI-Native Full-Stack Engineer · Mobile-first` - identical in the
-  CV header, every profile bio, and the website hero. Per-platform budgets live in
-  `bio/short.md`; the mobile-targeted and enterprise angles there are labelled
-  alternatives, not the lead.
+  CV header, every profile bio, and the website hero. Per-platform caps and tiers live in
+  each `bio/<platform>.md`; the mobile-targeted and enterprise angles are labelled
+  alternatives in `bio/linkedin.md`, not the lead.
 - Empty directories are held by `.gitkeep` - that is why `git ls-files` shows files that
   appear to hold nothing.
 
@@ -77,9 +77,11 @@ None - no build, test, lint, or package manager. The only routine operation is r
 - Context files the two installed skills look for do not exist here:
   `.agents/product-marketing.md` (social) and `.agents/brand-context.md` (personal-brand).
   Both skills fall back to asking questions - expected, not a bug.
-- Word counts differ: the upstream personal-brand skill targets 150-200 words for a
-  "long bio"; `bio/long.md` runs ~120. Match the file that already exists unless asked
-  for a new length.
-- `social/content/2026-09-24-threads-react-blogger-api.md` is untracked as of HEAD.
+- Bio copy is per platform and per language: `bio/linkedin.md` (headline 220 / About 2,600),
+  `bio/youtube.md` (channel description 1,000), `bio/instagram.md` (150) - each carries EN + ID
+  and a short + long tier, and each heading states its measured char count. The former
+  `bio/short.md` + `bio/long.md` were retired; every platform now has its own file -
+  `linkedin.md`, `youtube.md`, `instagram.md`, `threads.md`, `x.md`, `dailydev.md`,
+  `devto.md`, `github.md`, `facebook.md` (TikTok is the one old tier with no file yet).
 - `LICENSE` is CC BY-NC-ND 4.0 (attribution, no commercial use, no derivatives) and at
   19 KB is the largest file in the repo; the written content is the licensed material.
