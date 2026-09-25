@@ -13,7 +13,7 @@ tooling. 18 tracked files, ~117 KB of source.
 ## STRUCTURE
 ```
 my-personal-branding/
-├── resume/       # cv-master.md (single source) + sent/ cover-letters/ certificates/
+├── resume/       # cv-master.md (single source) + tailored/ role variants + sent/ cover-letters/ certificates/
 ├── bio/          # one file per platform: linkedin.md, youtube.md, instagram.md
 ├── social/       # accounts.md registry + content/ post records + metrics/ monthly
 ├── brand/        # identity.md (colors/fonts/tagline) + headshots/ + logos/
@@ -27,6 +27,7 @@ my-personal-branding/
 | Task | Location | Notes |
 |------|----------|-------|
 | Edit the CV | `resume/cv-master.md` | the single master, edited in place |
+| CV for a specific role | `resume/tailored/<role>.md` | living variants; the header keeps the lead title, the `Target role:` line does the targeting |
 | Record a CV that was sent | `resume/sent/` | dated filename, never edited after |
 | Bio for a specific platform | `bio/<platform>.md` | EN + ID, short + long tier, measured char count in each heading |
 | About page / speaker bio | `bio/linkedin.md` (long tier) | the fullest form; YouTube's long tier doubles as channel copy |

@@ -16,6 +16,7 @@ under [Public scope](#public-scope).
 | Path | What lives here |
 | --- | --- |
 | `resume/cv-master.md` | The single master CV - always edited here |
+| `resume/tailored/` | Role-targeted CV variants, one file per position (living, edited in place) |
 | `resume/sent/` | Archive of CVs actually sent (dated names, never edited after) |
 | `resume/cover-letters/` | Cover letter drafts and sent versions |
 | `resume/certificates/` | Certificates and awards (pdf/png) |
@@ -35,8 +36,8 @@ under [Public scope](#public-scope).
 
 - File names: `kebab-case`; ISO dates (`2026-09-20`) when a date is needed.
 - Files starting with `_` are templates.
-- **Master vs archive**: living files (`cv-master.md`, `bio/`, `social/accounts.md`)
-  are edited in place - git keeps their history. Anything sent out
+- **Master vs archive**: living files (`cv-master.md`, `resume/tailored/`, `bio/`,
+  `social/accounts.md`) are edited in place - git keeps their history. Anything sent out
   (`resume/sent/`) or captured as a snapshot (`social/metrics/`) is dated and
   never edited again.
 - One asset lives in one place - never duplicate headshots or logos across folders.
