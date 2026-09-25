@@ -82,6 +82,7 @@ None - no build, test, lint, or package manager. The only routine operation is r
   and a short + long tier, and each heading states its measured char count. The former
   `bio/short.md` + `bio/long.md` were retired; every platform now has its own file -
   `linkedin.md`, `youtube.md`, `instagram.md`, `threads.md`, `x.md`, `dailydev.md`,
-  `devto.md`, `github.md`, `facebook.md` (TikTok is the one old tier with no file yet).
+  `devto.md`, `github.md`, `facebook.md`, `tiktok.md` - every platform the old aggregates
+  covered now has its own file.
 - `LICENSE` is CC BY-NC-ND 4.0 (attribution, no commercial use, no derivatives) and at
   19 KB is the largest file in the repo; the written content is the licensed material.

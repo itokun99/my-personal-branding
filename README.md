@@ -27,7 +27,7 @@ under [Public scope](#public-scope).
 | `brand/headshots/` | Public photos |
 | `brand/logos/` | Logo and favicon files |
 | `brand/identity.md` | Colors, fonts, tagline |
-| `bio/` | Copy-paste bios - one file per platform (`linkedin.md`, `youtube.md`, `instagram.md`, `threads.md`, `x.md`, `dailydev.md`, `devto.md`, `github.md`, `facebook.md`), each with EN + ID and a short + long tier |
+| `bio/` | Copy-paste bios - one file per platform (`linkedin.md`, `youtube.md`, `instagram.md`, `threads.md`, `x.md`, `dailydev.md`, `devto.md`, `github.md`, `facebook.md`, `tiktok.md`), each with EN + ID and a short + long tier |
 | `testimonials/` | Quotes with source and permission flag |
 | `archive/` | Outdated documents, scans, raw material |
 
