@@ -228,11 +228,19 @@ Aug 2019 – Jun 2022
 
 # Education
 
+## Institut Teknologi Tangerang Selatan
+
+Bachelor of Information Systems
+
+2026 – Present
+
+---
+
 ## Universitas Terbuka
 
 Bachelor of Information Systems
 
-2024 – Present
+2024 – 2026
 
 ---
 
